@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "title": "Belajar React Native",
+      "complete": true,
+      "id": 1
+    },
+    {
+      "title": "Belajar Redux",
+      "complete": true,
+      "id": 2
+    },
+    {
+      "title": "Belajar React",
+      "complete": true,
+      "id": 3
+    },
+    {
+      "title": "Belajar JS",
+      "complete": true,
+      "id": 4
+    },
+    {
+      "title": "Belajar JS 1",
+      "complete": false,
+      "id": 6
+    },
+    {
+      "title": "Belajar JS 2",
+      "complete": false,
+      "id": 7
+    },
+    {
+      "title": "belajar angular",
+      "complete": false,
+      "id": 9
+    },
+    {
+      "title": "belajar redux native",
+      "complete": true,
+      "id": 11
+    }
+  ]
+}
