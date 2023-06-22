@@ -28,8 +28,8 @@ with the following data
 
 ```
 {
-  "email": "musulton@email.com",
-  "password":"sigantengkalem"
+  "email": "admin@mail.com",
+  "password":"password"
 }
 ```
 
