@@ -14,7 +14,7 @@ server.use(jsonServer.defaults());
 
 const SECRET_KEY = 'ENIGMA_CIPTA_HUMANIKA'
 const expiresIn = '10h'
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 
 // Create a token from a payload
 function createToken(payload){
@@ -120,5 +120,5 @@ server.use(/^(?!\/auth).*$/,  (req, res, next) => {
 server.use(router)
 
 server.listen(PORT, () => {
-  console.log(`Auth API server is running on http://localhost:${PORT}`)
+  console.log(`Auth API server is running on ${PORT}`)
 })
